@@ -5,20 +5,42 @@
 # .gitattributes
 # and nothing else, no characters before, no characters after
 # Start of linguist script
-# HTML (Duplicate, as it is already detected by GitHub Linguist by default)
+# Go!/Go
+*.go linguist-detectable=true
+*.go linguist-documentation=false
+# Roff
+*.1 linguist-detectable=true
+*.1 linguist-documentation=false
+*.2 linguist-detectable=true
+*.2 linguist-documentation=false
+*.3 linguist-detectable=true
+*.3 linguist-documentation=false
+# C
+*.c linguist-detectable=true
+*.c linguist-documentation=false
+# INI
+*.ini linguist-detectable=true
+*.ini linguist-documentation=false
+# HTML5
 *.htm linguist-detectable=true
 *.htm linguist-documentation=false
 *.html linguist-detectable=true
 *.html linguist-documentation=false
-# Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
-*.yml linguist-detectable=false
+# YAML
+*.yml linguist-detectable=true
 *.yml linguist-documentation=false
-*.yaml linguist-detectable=false
+*.yaml linguist-detectable=true
 *.yaml linguist-documentation=false
 # Markdown
 # Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
 *.md linguist-detectable=false
 *.md linguist-documentation=false
+*.mkd linguist-detectable=false
+*.mkd linguist-documentation=false
+*.mdown linguist-detectable=false
+*.mdown linguist-documentation=false
+*.markdown linguist-detectable=false
+*.markdown linguist-documentation=false
 # Makefile (GNU Make)
 # Do not include, as it is not needed to be shown
 *.mk linguist-detectable=false
@@ -26,6 +48,6 @@
 # End of linguist script
 # File info
 # File type: .gitattributes file
-# File version: 1 (Monday, 2021 August 23rd at 4:17 pm)
-# Line count (including blank lines and compiler line): 32
+# File version: 3 (Saturday, 2021 December 18th at 10:02 pm)
+# Line count (including blank lines and compiler line): 54
 # End of script
