@@ -1,0 +1,16 @@
+github
+go
+windows
+macos
+linux
+workflow
+ubuntu
+gplv3
+arch-linux
+md
+txt
+gpl3
+github-workflow
+github-action
+go2004
+fedora-linux
